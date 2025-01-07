@@ -13,6 +13,29 @@ body {
   gap: 2rem;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+.black {
+  color: #5f6368;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  gap: 1rem;
+}
+
+.right {
+  display: flex;
+  gap: 1rem;
+}
+
 .logo {
   margin-top: 10%;
 }
